@@ -1,0 +1,136 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "appid": "wx33349873de5c4880",
+  "projectname": "%E5%96%B5%E5%96%B5%E4%BA%A4%E5%8F%8B",
+  "libVersion": "2.8.1",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "id": 0,
+          "name": "设置手机号",
+          "pathName": "pages/editUserInfo/phone/phone",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "编辑个人信息",
+          "pathName": "pages/editUserInfo/editUserInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "个性签名",
+          "pathName": "pages/editUserInfo/signature/signature",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "修改共享位置",
+          "pathName": "pages/editUserInfo/location/location",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "修改昵称",
+          "pathName": "pages/editUserInfo/name/name",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "修改头像",
+          "pathName": "pages/editUserInfo/head/head",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 7,
+          "name": "detail",
+          "pathName": "pages/detail/detail",
+          "query": "userId=e656fa635f7d73ee01398de86db71c53",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "message",
+          "pathName": "pages/message/message",
+          "query": "userId=e656fa635f7d73ee01398de86db71c53",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "定位",
+          "pathName": "pages/near/near",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

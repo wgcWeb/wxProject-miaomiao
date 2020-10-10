@@ -1,0 +1,33 @@
+/* miniprogram/pages/user/user.wxss */
+.user-info{
+  height: 150rpx;
+  border: 2rpx solid #b4b5b6;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+}
+.user-info image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-info text{
+  margin-left: 10rpx;
+}
+.user-info button{
+  margin: 0;
+  margin-left: 10rpx;
+}
+.user-list{
+
+}
+.user-list .user-list-item{
+  height: 50rpx;
+  border-bottom: 2rpx dashed #b4b5b6;
+  padding: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

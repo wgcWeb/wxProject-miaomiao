@@ -1,0 +1,4 @@
+/* miniprogram/pages/editUserInfo/weixin/weixin.wxss */
+input{
+  border: 2rpx solid #b4b5b6;
+}

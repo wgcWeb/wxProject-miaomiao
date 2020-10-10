@@ -1,0 +1,10 @@
+<!--miniprogram/pages/message/message.wxml-->
+<view class="message" wx:if="{{logged}}">
+  <view class="message-text" wx:if="{{!userMessage.length}}">
+    <text>暂无消息:</text>
+  </view>
+  <view class="message-text" wx:else>
+    <text>消息列表:</text>
+    <remove-list wx:for="{{userMessage}}" wx:key="*this" messageId="{{item}}" bindmyevent="onMyEvent"></remove-list>
+  </view>
+</view>
